@@ -283,7 +283,7 @@
 
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-        ctx.fillStyle = 'rgba(222,78,30,' + p.o + ')';
+        ctx.fillStyle = 'rgba(200,16,46,' + p.o + ')';
         ctx.fill();
 
         /* connect nearby particles */
@@ -295,7 +295,7 @@
             ctx.beginPath();
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(q.x, q.y);
-            ctx.strokeStyle = 'rgba(48,28,81,' + (0.09 * (1 - d2 / 120)) + ')';
+            ctx.strokeStyle = 'rgba(12,27,58,' + (0.09 * (1 - d2 / 120)) + ')';
             ctx.lineWidth   = 0.7;
             ctx.stroke();
           }
