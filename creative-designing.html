@@ -7,10 +7,24 @@
   <meta name="description" content="Brand Building & Positioning and Digital & Mainline Advertising — logo design, brand collaterals, packaging, social media campaigns, print & ambient media and video." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader">
+    <div class="pre-inner">
+      <div class="pre-word" id="preWord">
+        <span>A</span><span>s</span><span>p</span><span>i</span><span>c</span><span>i</span><span>t</span><span>o</span><span class="dot">.</span>
+      </div>
+      <div class="pre-bar"></div>
+      <p class="pre-tag">Creative Designing</p>
+    </div>
+  </div>
+
+  <div class="grain" aria-hidden="true"></div>
   <div class="scroll-progress"></div>
 
   <header class="header">
@@ -28,6 +42,7 @@
   </header>
 
   <main>
+    <!-- ═══════════════ PAGE HERO ═══════════════ -->
     <section class="page-hero">
       <div class="hero-bg"></div>
       <span class="blob b1"></span>
@@ -35,18 +50,52 @@
       <div class="container">
         <p class="crumb reveal"><a href="index.html">Home</a> / Creative Designing</p>
         <span class="eyebrow reveal">Creative Designing</span>
-        <h1 class="reveal" data-delay="1">Design that <span class="ink">speaks your brand’s language.</span></h1>
+        <h1 class="reveal" data-delay="1">Design that <span class="ink">speaks your brand's language.</span></h1>
         <p class="lead reveal" data-delay="2">From brand building to advertising, we craft work that is visually striking and deeply intentional — connecting with your audience across every platform.</p>
+        <div class="hero-actions reveal" data-delay="3">
+          <a href="contact.html" class="btn btn-secondary" data-magnetic="0.35">Start a project
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="https://www.behance.net/gallery/197701479/Company-Profile" target="_blank" rel="noopener" class="btn btn-ghost" data-magnetic="0.3">View on Behance</a>
+        </div>
       </div>
     </section>
 
-    <!-- Brand Building -->
-    <section class="section-pad" style="padding-top:clamp(20px,4vw,40px)">
+    <!-- ═══════════════ SERVICE VISUAL CARDS ═══════════════ -->
+    <section class="section-pad" style="padding-top:clamp(24px,5vw,50px)">
+      <div class="container">
+        <div class="section-head center reveal">
+          <span class="eyebrow">What we do</span>
+          <h2>Two core capabilities, infinite possibilities</h2>
+          <p>Every service we offer is rooted in strategy and brought to life through distinctive, purposeful design.</p>
+        </div>
+        <div class="service-visual-grid">
+          <div class="sv-card sv-card-1 reveal" data-tilt>
+            <span class="sv-num" aria-hidden="true">01</span>
+            <h3>Brand Building &amp; Positioning</h3>
+            <p>Logos, identity systems, collaterals &amp; packaging that give your brand a lasting face.</p>
+          </div>
+          <div class="sv-card sv-card-2 reveal" data-delay="1" data-tilt>
+            <span class="sv-num" aria-hidden="true">02</span>
+            <h3>Digital &amp; Mainline Advertising</h3>
+            <p>Social campaigns, print media &amp; video that capture audiences everywhere they are.</p>
+          </div>
+          <div class="sv-card sv-card-3 reveal" data-delay="2" data-tilt>
+            <span class="sv-num" aria-hidden="true">03</span>
+            <h3>Strategy &amp; Creative Direction</h3>
+            <p>Brand positioning, messaging architecture &amp; creative frameworks for ambitious brands.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ BRAND BUILDING (ACCORDION) ═══════════════ -->
+    <section class="section-pad" style="padding-top:0">
       <div class="container">
         <div class="section-head reveal">
           <span class="eyebrow">01 — Capability</span>
           <h2>Brand Building &amp; Positioning</h2>
-          <p>Branding is the transformative process of giving your business a face and identity. We specialise in bringing your brand to life by infusing your brand’s essence into lasting memories.</p>
+          <p>Branding is the transformative process of giving your business a face and identity. We specialise in bringing your brand to life by infusing your brand's essence into lasting memories.</p>
         </div>
 
         <div class="accordion reveal">
@@ -54,8 +103,13 @@
             <button class="acc-head"><h3>Identity &amp; Logo Design</h3><span class="acc-icon"></span></button>
             <div class="acc-body">
               <div class="acc-body-inner">
-                Let our visionaries transform your brand stories into unique concepts &amp; logos that not only connect with your target audience but also become your brand’s face, communicating the right message.
-                <div class="tag-row"><span class="tag">Logo Design</span><span class="tag">Concept Development</span><span class="tag">Brand Identity</span></div>
+                Let our visionaries transform your brand stories into unique concepts &amp; logos that not only connect with your target audience but also become your brand's face, communicating the right message at every touchpoint.
+                <div class="tag-row">
+                  <span class="tag">Logo Design</span>
+                  <span class="tag">Concept Development</span>
+                  <span class="tag">Brand Identity</span>
+                  <span class="tag">Wordmark &amp; Emblem</span>
+                </div>
               </div>
             </div>
           </div>
@@ -64,7 +118,12 @@
             <div class="acc-body">
               <div class="acc-body-inner">
                 We focus on designing brand materials that fluently communicate your brand's essence. These collateral pieces become the voices of your brand, articulating its message impactfully. Our dedication to excellence transforms business stationery and brand collateral into lasting symbols of your business, ensuring instant recognition and unforgettable impact.
-                <div class="tag-row"><span class="tag">Brand Collaterals</span><span class="tag">Stationery</span><span class="tag">Touchpoints</span></div>
+                <div class="tag-row">
+                  <span class="tag">Brand Collaterals</span>
+                  <span class="tag">Stationery Design</span>
+                  <span class="tag">Brand Guidelines</span>
+                  <span class="tag">Touchpoints</span>
+                </div>
               </div>
             </div>
           </div>
@@ -72,8 +131,12 @@
             <button class="acc-head"><h3>Packaging Design</h3><span class="acc-icon"></span></button>
             <div class="acc-body">
               <div class="acc-body-inner">
-                We infuse your product with a distinct personality that not only sets it apart but also casts a spell on your audience. Our packaging designs are a strategic tool for turning casual shoppers into loyal customers, creating an interactive connection between your product and potential buyers.
-                <div class="tag-row"><span class="tag">Packaging Design</span><span class="tag">Product Graphics</span></div>
+                We infuse your product with a distinct personality that not only sets it apart but also casts a spell on your audience. Our packaging designs are a strategic tool for turning casual shoppers into loyal customers — creating an interactive connection between your product and potential buyers.
+                <div class="tag-row">
+                  <span class="tag">Packaging Design</span>
+                  <span class="tag">Product Graphics</span>
+                  <span class="tag">Label Design</span>
+                </div>
               </div>
             </div>
           </div>
@@ -81,7 +144,7 @@
       </div>
     </section>
 
-    <!-- Digital & Mainline -->
+    <!-- ═══════════════ DIGITAL & MAINLINE (ACCORDION) ═══════════════ -->
     <section class="section-pad why" style="padding-top:clamp(48px,8vw,90px)">
       <div class="container">
         <div class="section-head reveal">
@@ -90,13 +153,17 @@
           <p>Advertisement is more than a promotion; it's an immersive experience that speaks your brand's language. At Aspicito, we craft ads that resonate with your brand's unique language — a personalised approach that captivates your target audience.</p>
         </div>
 
-        <div class="accordion reveal" style="background:var(--white);border-radius:var(--radius);padding:0 24px;border:1px solid var(--line);">
+        <div class="accordion reveal" style="background:var(--white);border-radius:var(--radius);padding:0 24px;border:1px solid var(--line)">
           <div class="acc-item open">
             <button class="acc-head"><h3>Digital Advertisement</h3><span class="acc-icon"></span></button>
             <div class="acc-body">
               <div class="acc-body-inner">
-                We leverage the precision and power of digital advertising to craft compelling and tailored advertisements for the online landscape. Our approach ensures we connect with your online audience, capturing their attention and fostering meaningful engagement.
-                <div class="tag-row"><span class="tag">Social Media Campaign</span><span class="tag">Performance Creative</span></div>
+                We leverage the precision and power of digital advertising to craft compelling and tailored advertisements for the online landscape. Our approach ensures we connect with your online audience, capturing their attention and fostering meaningful engagement through social media, performance creatives and more.
+                <div class="tag-row">
+                  <span class="tag">Social Media Campaign</span>
+                  <span class="tag">Performance Creative</span>
+                  <span class="tag">Content Strategy</span>
+                </div>
               </div>
             </div>
           </div>
@@ -104,8 +171,12 @@
             <button class="acc-head"><h3>Mainline Advertisement</h3><span class="acc-icon"></span></button>
             <div class="acc-body">
               <div class="acc-body-inner">
-                We specialise in combining the power of traditional advertising with modern digital techniques to expand your brand's presence. Our mainline advertisements, ranging from print to outdoor media, captivate audiences on the streets and within varied publications, creating a meaningful and enduring impact.
-                <div class="tag-row"><span class="tag">Print &amp; Ambient Media</span><span class="tag">Catalogue &amp; Brochure</span></div>
+                We specialise in combining the power of traditional advertising with modern digital techniques to expand your brand's presence. Our mainline advertisements — ranging from print to outdoor media — captivate audiences on the streets and within varied publications, creating a meaningful and enduring impact.
+                <div class="tag-row">
+                  <span class="tag">Print &amp; Ambient Media</span>
+                  <span class="tag">Catalogue &amp; Brochure</span>
+                  <span class="tag">Hoardings &amp; OOH</span>
+                </div>
               </div>
             </div>
           </div>
@@ -113,8 +184,12 @@
             <button class="acc-head"><h3>Video Making &amp; Editing</h3><span class="acc-icon"></span></button>
             <div class="acc-body">
               <div class="acc-body-inner">
-                From concept to final cut, we produce and edit video content that brings your brand’s story to life and engages audiences across digital and mainline channels.
-                <div class="tag-row"><span class="tag">Video Making</span><span class="tag">Editing</span></div>
+                From concept to final cut, we produce and edit video content that brings your brand's story to life and engages audiences across digital and mainline channels — from reels and brand films to product showcases.
+                <div class="tag-row">
+                  <span class="tag">Brand Films</span>
+                  <span class="tag">Reels &amp; Short-form</span>
+                  <span class="tag">Video Editing</span>
+                </div>
               </div>
             </div>
           </div>
@@ -122,15 +197,47 @@
       </div>
     </section>
 
-    <!-- Portfolio -->
+    <!-- ═══════════════ PROCESS ═══════════════ -->
     <section class="section-pad">
       <div class="container">
+        <div class="section-head center reveal">
+          <span class="eyebrow">Our process</span>
+          <h2>How every project comes to life</h2>
+          <p>A rigorous, collaborative process that ensures every deliverable is deliberate and impactful.</p>
+        </div>
+        <div class="process">
+          <div class="step reveal">
+            <h3>Brief &amp; Discover</h3>
+            <p>Deep-dive into your brand, goals, audience and competitive landscape.</p>
+          </div>
+          <div class="step reveal" data-delay="1">
+            <h3>Strategise</h3>
+            <p>Define creative direction, positioning and messaging before a pixel is drawn.</p>
+          </div>
+          <div class="step reveal" data-delay="2">
+            <h3>Design &amp; Refine</h3>
+            <p>Craft, iterate and refine with obsessive attention to detail and brand cohesion.</p>
+          </div>
+          <div class="step reveal" data-delay="3">
+            <h3>Deliver &amp; Guide</h3>
+            <p>Hand over final assets with complete brand guidelines and usage support.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ PORTFOLIO CTA ═══════════════ -->
+    <section class="section-pad" style="padding-top:0">
+      <div class="container">
         <div class="cta reveal">
+          <div class="cta-orb cta-orb-1" aria-hidden="true"></div>
+          <div class="cta-orb cta-orb-2" aria-hidden="true"></div>
           <span class="eyebrow">Work portfolio</span>
-          <h2>See our company profile</h2>
-          <p>Explore a curated showcase of our branding and advertising work on Behance.</p>
+          <h2>See our work in action</h2>
+          <p>Explore a curated showcase of our branding and advertising work. Every project tells a story of transformation.</p>
           <div class="hero-actions">
-            <a href="https://www.behance.net/gallery/197701479/Company-Profile" target="_blank" rel="noopener" class="btn btn-secondary">View on Behance
+            <a href="https://www.behance.net/gallery/197701479/Company-Profile" target="_blank" rel="noopener" class="btn btn-secondary" data-magnetic="0.35">
+              View on Behance
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
             </a>
             <a href="contact.html" class="btn btn-ghost" style="color:#fff;border-color:rgba(255,255,255,.4)">Start a project</a>
@@ -178,7 +285,12 @@
         <span>Crafted with <span class="heart">♥</span> at the intersection of creativity &amp; strategy.</span>
       </div>
     </div>
+    <div class="footer-huge" aria-hidden="true">Aspicito</div>
   </footer>
+
+  <button class="to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
 
   <script src="js/main.js"></script>
 </body>
